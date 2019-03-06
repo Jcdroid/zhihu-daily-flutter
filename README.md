@@ -1,4 +1,4 @@
-# zhihu_daily
+# zhihu-daily-flutter
 
 A new Flutter project.
 
