@@ -1,13 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:zhihu_daily/net/net_helper.dart';
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    loadData();
     return _NewsList();
+  }
+
+  void loadData() {
+    NetworkHelper.getInstance().getLatestNews();
   }
 }
 
-class _NewsList extends StatelessWidget {
+class _NewsList extends StatelessWidget { 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(

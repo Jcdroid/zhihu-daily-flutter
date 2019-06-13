@@ -43,7 +43,7 @@ class _MyTabControllerState extends State<MyTabController> with SingleTickerProv
             BottomNavigationBarItem(
               title: Text('首页'),
               icon: Icon(Icons.home),
-              backgroundColor: Colors.blue
+              backgroundColor: Colors.blue,
             ),
             BottomNavigationBarItem(
               title: Text('想法'),
